@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Form Registrasi Siswa</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset style="background-color : pink;">
+        <legend>Form Registrasi Siswa</legend>
+        <p>
+            <label>Nama:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="text" name="nama" placeholder="nama lengkap" />
+        </p>
+        <p>
+            <label>Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="email" name="email" placeholder="user@example.com" />
+        </p>
+        <p>
+            <label>No. HP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="No. HP" name="No. HP" placeholder="xxxxxxxxxxxx" />
+        </p>
+        <p>
+            <label>Tempat Lahir:&nbsp</label>
+            <input type="text" name="Tempat Lahir" placeholder="nama kota" />
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="text" name="Tanggal Lahir" placeholder="dd-mm-yyyy" />
+        </p>
+        <p>
+            <label>Agama:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <select name="Agama">
+                <option value="">--pilih--</option>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+            </select>
+        </p>
+        <tr>
+    	    <td align="top">Persyaratan:&nbsp&nbsp&nbsp&nbsp</td>
+    	    <td><input type="file" name="Persyaratan" placeholder="pilih file"></td>
+        </tr>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="Laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="Perempuan" /> Perempuan</label>
+        </p>
+        <div id="Hobi" >
+            <label for="Hobi">Hobi </label>
+        <br>
+        <input type="checkbox" >
+        
+        <label for="">Menulis</label>
+        <br>
+        <input type="checkbox">
+        
+        <label for="">Membaca</label>
+       <br>
+        <input type="checkbox">
+        <label for="">Olahraga</label>
+        <br><br>
+        </div>
+        <div id="Cita-Cita" >
+            <label for="Cita-Cita">Cita-Cita </label>
+        <br>
+        <input type="checkbox" >
+        
+        <label for="">Teknisi</label>
+        <br>
+        <input type="checkbox">
+        
+        <label for="">Pengusaha</label>
+       <br>
+        <input type="checkbox">
+        <label for="">Pendidik</label>
+        <br><br>
+        </div>
+        <p>
+            <label>Alamat :</label>
+            <textarea name="Alamat"></textarea>
+        </p>
+        <p>
+            <label>Biografi:</label>
+            <textarea name="Biografi"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="SUBMIT" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
